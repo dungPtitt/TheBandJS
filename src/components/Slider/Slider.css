@@ -1,0 +1,25 @@
+#slider {
+  margin-top: 46px;
+  width: 100%;
+  padding-top: 50%;
+  background: url("/public/assets/image/band4.jpg") top center / cover no-repeat;
+  position: relative;
+}
+
+.slider-content {
+  position: absolute;
+  bottom: 48px;
+  text-align: center;
+  width: 100%;
+  color: #ccc;
+}
+
+.slider-content .heading {
+  font-weight: 500;
+  margin-bottom: 24px;
+  font-size: 2.4rem;
+}
+
+.slider-content .desc {
+  font-size: 1.6rem;
+}

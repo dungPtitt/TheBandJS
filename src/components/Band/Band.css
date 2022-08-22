@@ -1,0 +1,52 @@
+.section-content {
+  width: 800px;
+  margin: 24px auto;
+  padding: 48px 0;
+}
+
+.section-heading {
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.section-sub {
+  font-size: 1.6rem;
+  margin: 32px 0;
+  font-style: italic;
+  opacity: 0.6;
+  text-align: center;
+}
+
+.about {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  text-align: justify;
+  padding-bottom: 48px;
+}
+
+.numbers-list {
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.numbers-list .number-iteam {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+
+.numbers-list .number-name {
+  font-size: 2rem;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.numbers-list .avatar {
+  width: 154px;
+  border-radius: 4px;
+}
