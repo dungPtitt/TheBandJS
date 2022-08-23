@@ -1,7 +1,8 @@
 .section-content {
   width: 800px;
+  max-width: 100%;
   margin: 24px auto;
-  padding: 48px 0;
+  padding: 48px 16px;
 }
 
 .section-heading {

@@ -7,6 +7,8 @@ import Band from './components/Band';
 import Tour from './components/Tour';
 import Contact from './components/Contact';
 import GlobalStyles from './components/GlobalStyles'
+import Modal from './components/modals';
+// import './responsives/mobile.css'
 
 
 function App() {
@@ -15,11 +17,12 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path='/Home' element={<Home />} />
-          <Route path='/Band' element={<Band />} />
-          <Route path='/Tour' element={<Tour />} />
-          <Route path='/Contact' element={<Contact />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/band' element={<Band />} />
+          <Route path='/tour' element={<Tour />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
+        {/* <Modal/> */}
       </div>
     </GlobalStyles>
   )

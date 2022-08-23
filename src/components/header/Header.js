@@ -5,10 +5,10 @@ function Header() {
     return (
         <div id="header">
             <ul id="nav">
-                <li><Link to="/Home">Home</Link></li>
-                <li><Link to="/Band">Band</Link></li>
-                <li><Link to="/Tour">Tour</Link></li>
-                <li><Link to="/Contact">Contact</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/band">Band</Link></li>
+                <li><Link to="/tour">Tour</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
                 <li>
                     <a href="#">
                         More

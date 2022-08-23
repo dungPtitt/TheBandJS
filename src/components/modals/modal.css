@@ -1,0 +1,93 @@
+/* modal buy tickets */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* display: none; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open {
+  display: flex;
+}
+
+@keyframes modal {
+  from {
+      transform: translateY(-130px);
+  }
+  to {
+      transform: translateY(0);
+  }
+}
+
+.modal-container {
+  width: 900px;
+  background-color: #fff;
+  max-width: calc(100%-30px);
+  min-height: 200px;
+  position: relative;
+  animation: modal ease .2s;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px;
+  color: #fff;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #009688;
+  height: 130px;
+  font-size: 30px;
+  color: #fff;
+}
+.modal-header .heading-bag {
+  margin-right: 16px;
+}
+
+.modal-body {
+  padding: 16px;
+  font-size: 1.5rem;
+}
+.modal-label {
+  display: block;
+  margin-bottom: 12px;
+}
+.modal-input {
+  margin-bottom: 24px;
+  width: 100%;
+  padding: 6px;
+  font-size: 1.5rem;
+}
+#modal-buy {
+  background-color: #009688;
+  border: none;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 12px 0;
+  color: #fff;
+}
+#modal-buy:hover {
+  opacity: 0.8;
+}
+.modal-footer {
+  float: right;
+  padding: 16px;
+  font-size: 1.5rem;
+}
+.modal-footer a {
+  color: #009688;
+}
